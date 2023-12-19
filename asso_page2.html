@@ -66,6 +66,58 @@
         </div>
     </main>
 
+    <section class="container-fluid mt-5 bg-light border border-dark ">
+        <h2 class="title-style">Formulaire d'inscription</h2>
+        <form action="" method="get" class="para-style sans-ombre">
+            <div class="form-row  ">
+                <div class="form-group col-md-6 ">
+                    <label for="inputNom" class="custom-form-label"><p class="para-style sans-ombre">Nom</p></label>
+                    <input type="text" class="form-control custom-form" id="inputNom" placeholder="Entrez votre nom" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPrenom" class="custom-form-label"><p class="para-style sans-ombre">Prénom</p></label>
+                    <input type="text" class="form-control custom-form" id="inputPrenom" placeholder="Entrez votre prénom" required>
+                </div>
+            </div>
+            <div class="form-row">
+            <div class="form-group col-md-6" >
+                <label for="inputEmail" class="custom-form-label"><p class="para-style sans-ombre">Email</p></label>
+                <input type="email" class="form-control custom-form" id="inputEmail" placeholder="Entrez votre email" required>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputTelephone" class="custom-form-label"><p class="para-style sans-ombre">Téléphone</p></label>
+                <input type="tel" class="form-control custom-form" id="inputTelephone" placeholder="Entrez votre numéro de téléphone" required>
+            </div></div>
+            <div class="container-fluid sans-ombre" ">
+            
+            <div class="form-group ">
+                <label class="custom-form-label"><p class="para-style sans-ombre">Choisissez une ou plusieurs activités :</p></label>
+                <div class="custom-checkbox-group">
+                    <div class="row" >
+                    <div class="custom-control custom-checkbox col-md-6 col-xl-3" >
+                        <input type="checkbox" class="custom-control-input " id="atelierNichoirs" name="activites[]" value="atelierNichoirs">
+                        <label class="custom-control-label" for="atelierNichoirs" ><p class="para-style sans-ombre">Ateliers de Création de Nichoirs</p></label>
+                    </div>
+                    <div class="custom-control custom-checkbox col-md-6 col-xl-3">
+                        <input type="checkbox" class="custom-control-input " id="recensementOiseaux" name="activites[]" value="recensementOiseaux">
+                        <label class="custom-control-label" for="recensementOiseaux"><p class="para-style sans-ombre">Recensement des oiseaux</p></label>
+                    </div>
+                    <div class="custom-control custom-checkbox col-md-6 col-xl-3">
+                        <input type="checkbox" class="custom-control-input custom-checkbox-lg" id="sensibilisationEcoles" name="activites[]" value="sensibilisationEcoles">
+                        <label class="custom-control-label" for="sensibilisationEcoles"><p class="para-style sans-ombre">Programmes de Sensibilisation dans les Écoles</p></label>
+                    </div>
+                    <div class="custom-control custom-checkbox col-md-6 col-xl-3">
+                        <input type="checkbox" class="custom-control-input " id="nettoyageEspaces" name="activites[]" value="nettoyageEspaces">
+                        <label class="custom-control-label" for="nettoyageEspaces"><p class="para-style sans-ombre">Nettoyage des espaces communaux</p></label>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+            <button type="submit" id="testbtn" class="btn btn-primary btn-form-style" >Envoyer</button>
+        </form>
+    </section>
+
     
     <br>
     <footer >

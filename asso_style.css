@@ -65,6 +65,20 @@ p, main, .bouton-style, section {
         max-width: 800px;
         margin: 0 auto;
     }
+
+    #inputNom.custom-form,
+    #inputPrenom.custom-form,
+    #inputEmail.custom-form,
+    #inputTelephone.custom-form {
+        height: auto;
+        font-size: 200%;
+        max-width: auto;
+    }
+
+    #Test.style-choix {
+        height: 200px;
+        width: 500px;
+    }
     
 }
 
@@ -228,6 +242,12 @@ main,
     background-color: #fff;
 }
 
+#testbtn.btn-form-style {
+    width: 100%;
+    font-size: 2vmin;
+    border-radius: 1vmin;
+    
+}
 
 footer {
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
