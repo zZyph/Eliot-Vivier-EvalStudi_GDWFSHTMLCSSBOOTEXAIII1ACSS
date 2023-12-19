@@ -140,9 +140,7 @@ p, main, .bouton-style, section {
     }
 }
 
-.sans-ombre {
-    box-shadow: 0 0px 0px rgba(255, 255, 255, 0.1);
-}
+
 
 .title-style {
     text-decoration: underline;
@@ -195,6 +193,13 @@ p, main, .bouton-style, section {
 .souligne {
     text-decoration: underline;
 }
+.image-container {
+    max-width: 100%;
+    align-self: flex-end;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 
 header,
 main,
@@ -206,6 +211,21 @@ main,
 .custom-modal {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+}
+.sans-ombre {
+    box-shadow: 0 0px 0px rgba(255, 255, 255, 0.1);
+}
+
+.fond-para_style {
+    background: linear-gradient(to right, #1eecf0, #1bee4f);
+}
+
+.fond-para_style2 {
+    background: linear-gradient(to left, #1eecf0, #1bee4f);
+}
+
+.fond-blanc {
+    background-color: #fff;
 }
 
 
