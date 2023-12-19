@@ -47,6 +47,14 @@ p, main, .bouton-style, section {
         font-size: 3vmin;
     }
 
+    .point-visible {
+        display: none;
+    }
+
+    .titre-accueil {
+        font-size: 60px;
+    }
+
     
 }
 
@@ -65,6 +73,9 @@ p, main, .bouton-style, section {
     nav li {
         display: inline;
         margin-right: 20px;
+    }
+    .para-style {
+        font-size: 22px;
     }
 }
 
@@ -99,6 +110,10 @@ p, main, .bouton-style, section {
     .navbar-toggler {
         margin-left: auto;
     }
+
+    .para-style {
+        font-size: 4vmin;
+    }
 }
 
 .sans-ombre {
@@ -110,7 +125,30 @@ p, main, .bouton-style, section {
     margin-bottom: 10px;
     margin-bottom: 10px;
     text-align: center;
+    font-weight: bold;
 
+}
+
+.fond-vert {
+    background-color: #68f980;
+}
+
+.titre-accueil {
+    background: linear-gradient(to right, #00ff00, #122cee);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer {
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
 
 h1 {
